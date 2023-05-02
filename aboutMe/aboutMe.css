@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+    margin: 8px;
+}
+
+a:hover{
+    color: #100d74aa;
+}
+
+abbr:hover{
+    color: #100d74aa;
+}
+
+.textCentered {
+    text-align: center;
+}
+
+.headingTextColor{
+    color: #00ADB5;
+}
+
+.paragraphText{
+    color: #393E46;
+}
+
+.strong{
+    color: #222831;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+
+.greekUnorderedList{
+    list-style: lower-greek;
+}
+
+.displayInline{
+    display: flex;
+    text-align: center;
+}
+.happy{
+    margin-right: 100px;
+}
