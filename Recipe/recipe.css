@@ -11,6 +11,14 @@ a{
     color: #A4A400 ;
 }
 
+p{
+    margin: 0;
+}
+
+.pieImage{
+    margin-bottom: 10px;
+}
+
 .centered{
     text-align: center;
 }
