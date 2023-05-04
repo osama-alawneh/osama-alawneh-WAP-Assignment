@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nerdluv Signup</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="https://raw.githubusercontent.com/sammanthp007/nerdluv/master/nerdluv.png"
+        alt="Nerdluv Logo"
+      />
+      <p>Where meek geeks meat</p>
+    </div>
+
+    <div class="signup-div">
+      <form action="https://mumstudents.org/params.php" method="post">
+        <fieldset class="signup-fieldset">
+          <legend class="legend">New User Signup:</legend>
+
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" maxlength="16" />
+          </div>
+
+          <br />
+
+          <div>
+            <label>Gender:</label>
+            <label for="male">
+              <input type="radio" name="gender" id="male" value="male" />
+              Male
+            </label>
+            <label for="female">
+              <input
+                type="radio"
+                name="gender"
+                id="female"
+                value="female"
+                checked
+              />
+              Female
+            </label>
+          </div>
+
+          <br />
+
+          <div>
+            <label for="age">Age:</label>
+            <input type="text" name="age" id="age" size="6" maxlength="2" />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="personality">Personality type:</label>
+            <input
+              type="text"
+              name="personality"
+              id="personality"
+              size="6"
+              maxlength="4"
+            />
+            (<a
+              href="http://www.humanmetrics.com/cgi-win/JTypes2.asp"
+              target="_blank"
+              >Don't know your type?</a
+            >)
+          </div>
+
+          <br />
+
+          <div>
+            <label for="os">Favorite OS:</label>
+            <select name="os" id="os">
+              <option value="Windows" selected>Windows</option>
+              <option value="macos">Mac OS X</option>
+              <option value="linux">Linux</option>
+            </select>
+          </div>
+
+          <br />
+
+          <div>
+            <label for="minAge">Seeking Age:</label>
+            <input
+              type="number"
+              name="minAge"
+              id="minAge"
+              size="6"
+              maxlength="2"
+              placeholder="min"
+              max="99"
+            />
+            <label for="maxAge">to</label>
+            <input
+              type="number"
+              name="maxAge"
+              id="maxAge"
+              size="6"
+              maxlength="2"
+              placeholder="max"
+              max="99"
+            />
+          </div>
+          <br />
+          <div>
+            <button type="submit" class="submitBtn">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nihil libero
+      illo! Officiis corporis totam impedit voluptate enim consequuntur tempora
+      porro consequatur blanditiis ipsa, obcaecati vel itaque fugiat repellendus
+      est.
+    </div>
+    <br>
+    <div>
+        <p>
+            Results and Page (C) Copyright Nerdluv Inc.
+        </p>
+    </div>
+    <br>
+    <div>
+        <a href="../index.html">
+            back to front page
+        </a>
+    </div>
+  </body>
+</html>

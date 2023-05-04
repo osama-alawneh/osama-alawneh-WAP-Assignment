@@ -1,0 +1,22 @@
+.width50{
+    width: 50%;
+}
+
+.centered{
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.submitBtn{
+    background-color: rgb(112, 126, 230);
+    border-radius: 10px;
+    width: 150px;
+    font-size: large;
+}
+
+.submitReset{
+    background-color: rgb(225, 120, 8);
+    border-radius: 10px;
+    width: 150px;
+    font-size: large;
+}

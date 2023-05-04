@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grade.css">
+    <title>Retrieve Grade</title>
+</head>
+<body> 
+
+    <div class="centered width50">
+        <h1>
+            Retrieve Grade
+        </h1>
+    </div>
+
+    <div class="centered width50">
+        <form action="https://mumstudents.org/params.php" method="post" target="_blank">
+            <fieldset>
+                <legend>
+                    Student Information :
+                </legend>
+    
+                <div>
+                    <label for="name">
+                        Student Name :
+                    </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                
+                <br>
+    
+                <div>
+                    <label for="studentId">
+                        Student ID :
+                    </label>
+                    <input type="text" name="studentId" id="studentId">
+                </div>
+
+                <br>
+
+                <div>
+                    <label>Student Entry: </label>
+                    <br>
+                    <label for="february">February<input type="radio" name="entry" id="february" value="february" checked></label>
+                    <label for="march">March<input type="radio" name="entry" id="march" value="march"></label>
+                    <label for="august">August<input type="radio" name="entry" id="august" value="august"></label>
+                </div>
+
+                <br>
+
+                <div>
+                    <select name="assignment" id="assignment">
+                        <option value="lab0">
+                            Create Your Homepage (lab - 0)
+                        </option>
+
+                        <option value="lab1">
+                            About Me Webpage (lab 1)
+                        </option>
+
+                        <option value="homework1">
+                            Recipe Webpage (Homework 1)
+                        </option>
+
+                        <option value="homework2">
+                            Movie Review Webpage (Homework 2)
+                        </option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="">
+                        Are you lying ?<input type="checkbox" name="lying" id="lying">
+                    </label>
+                </div>
+
+                <br>
+
+                <div>
+                    <button type="submit" class="submitBtn">
+                        Submit
+                    </button>
+
+                    <button type="reset" class="submitReset">
+                        Reset
+                    </button>
+                </div>
+    
+            </fieldset>
+        </form>
+    </div>
+    
+
+</body>
+</html>
