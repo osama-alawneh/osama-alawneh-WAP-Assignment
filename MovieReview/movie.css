@@ -90,8 +90,10 @@ body{
 
 
 .footer{
-    position: relative;
-    top: -100%;
+    text-align: center;
+    margin-top: 100px;
+    background: #A2B964;
+    height: 30px;
 }
 
 .span{
