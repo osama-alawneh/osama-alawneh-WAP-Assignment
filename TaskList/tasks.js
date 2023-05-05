@@ -10,7 +10,7 @@ clearTasksBtn.addEventListener("click",clearTasksHandler);
 function addTaskHandler(){
     const taskText = task.value
     tasksArea.value += taskText + '\n'
-    localStorage.setItem("tasks") = tasksArea.value;
+    localStorage.setItem("tasks", tasksArea.value)
 }
 
 function clearTasksHandler(){
