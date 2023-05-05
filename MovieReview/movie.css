@@ -93,3 +93,11 @@ body{
     position: relative;
     top: -100%;
 }
+
+.span{
+    color: red;
+    position: absolute;
+    top: 29%;
+    left: 35%;
+    font-size: 50px;
+}
