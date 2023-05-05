@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tasks List</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="left">
+            <div class="header">
+                <h2>
+                    Task List
+                </h2>
+            </div>
+
+            <div class="taskInput">
+                <label for="task">Task</label>
+                <br>
+                <input type="text" id="task">
+            </div>
+            <div class="buttons">
+                <button id="addTask">
+                    Add Task
+                </button>
+
+                <button id="clearTasks">
+                    Clear Tasks
+                </button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div>
+                <p>
+                    Task List
+                </p>
+            </div>
+
+            <div class="tasks">
+                <textarea name="tasks" id="tasks" cols="50" rows="10">
+
+                </textarea>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="tasks.js"></script>
+</body>
+</html>
