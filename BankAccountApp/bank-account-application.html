@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BankAccount.css">
+    <title>Bank Account Application</title>
+</head>
+<body>
+    <div id="mainView" class="desplayed1">
+        <fieldset>
+            <legend>Create a new bank account</legend>
+            <label for="name">Account Name:</label>
+            <input required type="text" id="name">
+            <br><br>
+            <label for="deposit">Initial deposit:</label>
+            <input style="margin-left: 8px;" required type="number" id="deposit">
+            <br><br>
+            <button style="margin-left: 100px;" id="btn-account">Create new account</button>
+            <hr>
+            <h2>Account list</h2>
+            <textarea id="account-list" rows="10" cols="50" readonly></textarea><br>
+            <button id="btn-display" class="deposit">Deposit</button>
+            <button id="btn-debit" class="debit">Debit</button>
+        </fieldset>
+    </div>
+
+    <div id="depositView" class="desplayed2 hidden">
+        <fieldset>
+            <legend>Deposit</legend>
+            <label for="account-dropdown">Account:</label>
+            <select id="list-account" onchange="desabledBtn(this)"></select>
+            <br><br>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount-deposit">
+            <br><br>
+            <button id="btn-submit-deposit" disabled>Submit</button>
+        </fieldset>
+    </div>
+
+    <div id="depitView" class="desplayed2 hidden">
+        <fieldset>
+            <legend>Debit</legend>
+            <label for="account-dropdown">Account:</label>
+            <select id="list-account-depit" onchange="desabledBtn(this)"></select>
+            <br><br>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount-depit">
+            <br><br>
+            <button id="btn-submit-depit" disabled>Submit</button>
+        </fieldset>
+    </div>
+
+    <script src="BankAccountApplication.js"></script>
+</body>
+</html>
