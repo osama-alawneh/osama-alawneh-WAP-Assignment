@@ -2,15 +2,18 @@ body{
   margin: 0pt;
 }
 .footerDiv {
-    position: fixed;
-    bottom: 0;
     background-color :aliceblue;
     width: 100%;
     text-align: center;
+    margin-top: auto;
 }
 
 .assignmentsUnorderedList{
   list-style:lower-greek;
+}
+
+.allContent{
+ min-width: 100%; 
 }
 
 .allContentNoPic{
