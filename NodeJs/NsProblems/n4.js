@@ -25,7 +25,7 @@ http.createServer((req, res) => {
     if(pathname == '/add.js'){
         return adder.add(req, res, query);
     }else{
-        const fileName = `./${pathname}`;
+        const fileName = `.${pathname}`;
         fs.readFile(fileName, (err, data) => {
             if(err){
                 res.writeHead(404, {
