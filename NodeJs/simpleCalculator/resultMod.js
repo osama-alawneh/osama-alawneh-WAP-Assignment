@@ -16,5 +16,5 @@ exports.add = function(req,res,value){
     </form>
     </body>
     </html> ` );
-return res.end();
+    res.end();
 };
